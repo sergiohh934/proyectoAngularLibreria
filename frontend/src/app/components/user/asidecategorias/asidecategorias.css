@@ -1,0 +1,37 @@
+/* Fondo del aside categorías */
+:host {
+  display: block;
+  background-color: #DFF9F6; /* verde turquesa suave */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(32, 201, 151, 0.3); /* borde suave */
+  font-family: 'Arial', sans-serif;
+  color: #073B3A; /* texto oscuro para buena visibilidad */
+}
+
+/* Título */
+h5 {
+  color: #20C997;  /* turquesa principal */
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Lista de categorías */
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Checkbox estilo */
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+  accent-color: #B793F9; /* púrpura suave para el check */
+}
+
+/* Hover sobre el label */
+label:hover {
+  color: #A57DE8; /* púrpura más intenso al pasar el mouse */
+}

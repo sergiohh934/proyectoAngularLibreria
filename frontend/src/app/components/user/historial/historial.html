@@ -1,0 +1,80 @@
+<app-headeruser></app-headeruser>
+
+<div class="container mt-3">
+  <h3>Historial de Compras</h3>
+
+  <div *ngIf="cargando" class="alert alert-info">
+    Cargando compras...
+  </div>
+
+  <div *ngIf="!cargando && comprasConLibros.length === 0" class="alert alert-warning">
+    No hay compras realizadas.
+  </div>
+
+  <div class="accordion" id="accordionHistorial">
+
+    <div class="accordion-item"
+         *ngFor="let compra of comprasConLibros; let i = index">
+
+      <!-- CABECERA (RESUMEN) -->
+      <h2 class="accordion-header" [id]="'heading' + i">
+        <button
+          class="accordion-button collapsed d-flex justify-content-between"
+          type="button"
+          data-bs-toggle="collapse"
+          [attr.data-bs-target]="'#collapse' + i"
+          aria-expanded="false"
+          [attr.aria-controls]="'collapse' + i"
+        >
+          <span>
+            📅 {{ compra.fecha | date:'short' }}
+          </span>
+
+          <span class="fw-bold ms-auto">
+            {{ compra.total | number:'1.2-2' }} €
+          </span>
+        </button>
+      </h2>
+
+      <!-- CONTENIDO DESPLEGABLE -->
+      <div
+        [id]="'collapse' + i"
+        class="accordion-collapse collapse"
+        [attr.aria-labelledby]="'heading' + i"
+        data-bs-parent="#accordionHistorial"
+      >
+        <div class="accordion-body">
+
+          <table class="table table-bordered historial-table">
+            <thead>
+              <tr>
+                <th>Título</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let libro of compra.libros">
+                <td>
+                  {{ libro.titulo }}
+                  <span *ngIf="libro.eliminado" class="badge bg-danger ms-2">Eliminado</span>
+                </td>
+                <td>{{ libro.cantidad }}</td>
+                <td>
+                  {{ libro.precio * libro.cantidad | number:'1.2-2' }} €
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="d-flex justify-content-end fw-bold mt-2">
+            Total: {{ compra.total | number:'1.2-2' }} €
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>

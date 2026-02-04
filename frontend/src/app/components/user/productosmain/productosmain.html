@@ -1,0 +1,54 @@
+<app-headeruser></app-headeruser>
+
+<div class="container-fluid mt-3">
+  <div class="row">
+
+    <!-- Lateral Izquierdo - categorias -->
+    <aside class="col-md-2 sticky-aside">
+      <app-latizq  
+        [categorias]="categorias" 
+        (cambioCategorias)="aplicarFiltro($event)">
+      </app-latizq>
+    </aside>
+
+    <!-- Mostrar Productos -->
+    <main class="col-md-8">
+      <app-mostrarproductos 
+        [libros]="librosFiltrados"
+        (agregarCarrito)="agregarAlCarrito($event)">
+      </app-mostrarproductos>
+    </main>
+
+    <!-- Lateral Derecho - Carrito  -->
+    <aside class="col-md-2 sticky-aside">
+      <app-latder
+        [carrito]="carrito" 
+        (quitarCarrito)="quitarDelCarrito($event)"
+        (finalizar)="finalizarCompra()">
+      </app-latder>
+    </aside>
+
+  </div>
+</div>
+
+<app-footeruser></app-footeruser>
+
+<div class="toast-container position-fixed top-0 end-0 p-3">
+
+  <!-- Éxito -->
+  <div id="toastSuccess" class="toast align-items-center text-bg-success border-0" role="alert">
+    <div class="d-flex">
+      <div class="toast-body">Operación exitosa</div>
+      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+    </div>
+  </div>
+
+  <!-- Error -->
+  <div id="toastError" class="toast align-items-center text-bg-danger border-0" role="alert">
+    <div class="d-flex">
+      <div class="toast-body">Ha ocurrido un error</div>
+      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+    </div>
+  </div>
+
+</div>

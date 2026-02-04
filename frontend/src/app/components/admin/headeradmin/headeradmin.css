@@ -1,0 +1,58 @@
+/* Navbar Admin Sticky y estilo personalizado */
+.header-admin-custom {
+  position: sticky;
+  top: 0;
+  z-index: 1030;                     /* sobre otros elementos */
+  background-color: #20C997 !important; /* turquesa */
+  color: #F8FFFE !important;           /* texto claro */
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* ligera sombra */
+}
+
+/* Marca, enlaces y texto */
+.header-admin-custom .navbar-brand,
+.header-admin-custom .nav-link,
+.header-admin-custom .navbar-text {
+  color: #F8FFFE !important; /* texto claro */
+  font-weight: 500;
+}
+
+/* Hover enlaces */
+.header-admin-custom .nav-link:hover {
+  color: #B793F9 !important; /* púrpura suave */
+}
+
+/* Enlace activo */
+.header-admin-custom .nav-link.active {
+  color: #A57DE8 !important; /* púrpura más intenso */
+  font-weight: 600;
+}
+
+/* Botón hamburguesa */
+.header-admin-custom .navbar-toggler {
+  border-color: #F8FFFE;
+}
+
+.header-admin-custom .navbar-toggler-icon {
+  filter: invert(100%); /* icono blanco */
+}
+
+/* Botón "Salir" */
+.header-admin-custom .btn-danger.btn-sm {
+  background-color: #B793F9 !important; /* púrpura suave */
+  border-color: #B793F9 !important;
+  color: #F8FFFE !important;           /* texto claro para mejor legibilidad */
+  font-weight: 600;
+  width: 100px;                         /* ancho fijo más visible */
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.35rem;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Hover */
+.header-admin-custom .btn-danger.btn-sm:hover {
+  background-color: #e94c7b !important; /* púrpura más intenso */
+  border-color: #e94c7b !important;
+  color: #F8FFFE !important;            /* mantener el texto claro */
+}

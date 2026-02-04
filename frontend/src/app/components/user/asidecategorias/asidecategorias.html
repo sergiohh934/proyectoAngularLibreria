@@ -1,0 +1,9 @@
+<h5>Categorías</h5>
+
+<div *ngFor="let cat of categorias">
+  <label>
+    <input type="checkbox" 
+           (change)="onChangeCategoria(cat, $event.target.checked)">
+    {{ cat }}
+  </label>
+</div>

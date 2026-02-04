@@ -1,0 +1,77 @@
+/* Fondo general */
+body, html {
+  background-color: #E0F7F4; /* verde suave de fondo */
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card del registro */
+.card {
+  background-color: #F8FFFE; /* fondo claro para contraste */
+  border: 2px solid #20C997; /* borde turquesa */
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Título */
+.card h2 {
+  color: #20C997; /* turquesa principal */
+  font-weight: 700;
+}
+
+/* Labels */
+.form-label {
+  color: #073B3A; /* texto oscuro */
+  font-weight: 500;
+}
+
+/* Inputs */
+.form-control {
+  border: 1px solid #20C997; /* borde turquesa */
+  border-radius: 6px;
+  padding: 0.5rem;
+  background-color: #E0FFF9; /* verde suave */
+  color: #073B3A;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #B793F9; /* púrpura suave al enfocar */
+  box-shadow: 0 0 0 0.2rem rgba(183, 147, 249, 0.25);
+  outline: none;
+}
+
+/* Botón registrar */
+.btn-primary {
+  background-color: #B793F9; /* púrpura suave */
+  border-color: #B793F9;
+  color: #073B3A;
+  font-weight: 600;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #A57DE8; /* púrpura más intenso */
+  border-color: #A57DE8;
+  color: #F8FFFE;
+}
+
+/* Enlace login */
+.card a {
+  color: #20C997; /* turquesa */
+  text-decoration: none;
+}
+
+.card a:hover {
+  color: #B793F9; /* púrpura suave */
+  text-decoration: underline;
+}
+
+/* Alertas de error */
+.alert-danger {
+  background-color: #F9E0F0; /* rosa suave */
+  color: #073B3A;
+  border: 1px solid #B793F9;
+}

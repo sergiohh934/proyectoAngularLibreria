@@ -1,0 +1,94 @@
+/* Fondo general y contenedor centrado */
+body, html {
+  background-color: #E0F7F4; /* verde suave */
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card de login */
+.card {
+  background-color: #F8FFFE; /* fondo claro */
+  border: 2px solid #20C997; /* borde turquesa */
+  border-radius: 10px;
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Título */
+.card h3 {
+  color: #20C997; /* turquesa */
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Labels */
+.form-label {
+  color: #073B3A; /* texto oscuro */
+  font-weight: 500;
+}
+
+/* Inputs */
+.form-control {
+  border: 1px solid #20C997; /* borde turquesa */
+  border-radius: 6px;
+  padding: 0.5rem;
+  background-color: #E0FFF9; /* verde suave */
+  color: #073B3A;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #B793F9; /* púrpura suave al enfocar */
+  box-shadow: 0 0 0 0.2rem rgba(183, 147, 249, 0.25);
+  outline: none;
+}
+
+/* Botón Entrar */
+.btn-primary {
+  width: 100%;
+  background-color: #B793F9; /* púrpura suave */
+  border-color: #B793F9;
+  color: #073B3A;
+  font-weight: 600;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #A57DE8; /* púrpura más intenso */
+  border-color: #A57DE8;
+  color: #F8FFFE;
+}
+
+/* Alertas de error */
+.alert-danger {
+  background-color: #F9E0F0; /* rosa suave */
+  color: #073B3A;
+  border: 1px solid #B793F9;
+  font-weight: 500;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+/* Enlace de registro */
+.card a {
+  color: #20C997; /* turquesa */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.card a:hover {
+  color: #B793F9; /* púrpura suave */
+  text-decoration: underline;
+}

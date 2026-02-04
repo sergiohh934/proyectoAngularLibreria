@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-lg header-admin-custom">
+  <div class="container-fluid">
+
+    <!-- Título -->
+    <a class="navbar-brand" routerLink="/admin-gestion"> 
+    <img src="logo-blanco.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+    Raíz Literaria - Admin</a>
+    <!-- Botón móvil -->
+    <button class="navbar-toggler" type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Contenido -->
+    <div class="collapse navbar-collapse" id="navbarText">
+      
+      <!-- Opciones del menú -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/admin-gestion">Gestión de Libros</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/admin-alta">Alta de Libros</a>
+        </li>
+      </ul>
+      <!-- Texto + Botón logout -->
+      <span class="navbar-text d-flex align-items-center gap-3">
+        <button class="btn btn-danger btn-sm" (click)="logout()">Salir</button>
+      </span>
+
+    </div>
+  </div>
+</nav>

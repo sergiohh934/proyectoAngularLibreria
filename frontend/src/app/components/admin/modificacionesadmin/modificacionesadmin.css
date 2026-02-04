@@ -1,0 +1,160 @@
+/* Fondo general */
+body, html {
+  background-color: #E0F7F4; /* verde suave */
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Panel izquierdo */
+.col-md-4 {
+  background-color: #DFF9F6; /* verde turquesa suave */
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.col-md-4 h4 {
+  color: #20C997;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Cards listado de libros */
+.col-md-4 .card {
+  background-color: #F8FFFE;
+  border: 1px solid #20C997;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.col-md-4 .card h5 {
+  color: #20C997;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.col-md-4 .card p {
+  color: #073B3A;
+  margin-bottom: 0.5rem;
+}
+
+.col-md-4 .btn {
+  width: 48%;
+  font-weight: 500;
+}
+
+.col-md-4 .btn-primary {
+  background-color: #B793F9;
+  border-color: #B793F9;
+  color: #073B3A;
+}
+
+.col-md-4 .btn-primary:hover {
+  background-color: #A57DE8;
+  border-color: #A57DE8;
+  color: #F8FFFE;
+}
+
+.col-md-4 .btn-danger {
+  background-color: #FF6B6B;
+  border-color: #FF6B6B;
+  color: #F8FFFE;
+}
+
+.col-md-4 .btn-danger:hover {
+  background-color: #E55B5B;
+  border-color: #E55B5B;
+  color: #F8FFFE;
+}
+
+/* Panel derecho */
+.col-md-8 {
+  background-color: #E0FFF9;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.col-md-8 h4 {
+  color: #20C997;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Card formulario */
+.col-md-8 .card {
+  background-color: #F8FFFE;
+  border: 1px solid #20C997;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* Labels */
+.form-label {
+  color: #073B3A;
+  font-weight: 500;
+}
+
+/* Inputs */
+.form-control {
+  border: 1px solid #20C997;
+  border-radius: 6px;
+  padding: 0.5rem;
+  background-color: #E0FFF9;
+  color: #073B3A;
+  margin-bottom: 0.75rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #B793F9;
+  box-shadow: 0 0 0 0.2rem rgba(183, 147, 249, 0.25);
+  outline: none;
+}
+
+/* Flex contenedores para campos compartidos */
+.d-flex.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.flex-field {
+  flex: 1 1 45%; /* ocupa 45% cada campo, deja espacio y se adapta */
+}
+
+@media (max-width: 576px) {
+  .flex-field {
+    flex: 1 1 100%; /* en pantallas pequeñas uno debajo del otro */
+  }
+}
+
+/* Botón guardar */
+.btn-success {
+  background-color: #B793F9;
+  border-color: #B793F9;
+  color: #073B3A;
+  font-weight: 600;
+  width: 100%;
+}
+
+.btn-success:hover {
+  background-color: #A57DE8;
+  border-color: #A57DE8;
+  color: #F8FFFE;
+}
+
+/* Scroll panel izquierdo */
+.border-end {
+  border-right: 1px solid rgba(32,201,151,0.3);
+}
+
+@media (max-width: 768px) {
+  .col-md-4, .col-md-8 {
+    max-height: none;
+    overflow-y: visible;
+  }
+}
