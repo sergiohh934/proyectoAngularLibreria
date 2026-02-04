@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "69668a09b21c0d3ca88bed02"
+  },
+  "nombre": "sergio",
+  "email": "sergio",
+  "password": "sergio",
+  "role": "user",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69668a50b21c0d3ca88bed0b"
+  },
+  "nombre": "admin",
+  "email": "admin",
+  "password": "admin",
+  "role": "admin",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69669538c5c1d0568194e522"
+  },
+  "nombre": "paco",
+  "email": "paco",
+  "password": "paco",
+  "role": "user",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6973d8b7b5f12c2f8c1b4549"
+  },
+  "nombre": "josito",
+  "email": "josito",
+  "password": "josito",
+  "role": "user",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697c02c93669efe62d1013ca"
+  },
+  "nombre": "lorenzo",
+  "email": "lorenzo",
+  "password": "lorenzo",
+  "role": "user",
+  "__v": 0
+}]

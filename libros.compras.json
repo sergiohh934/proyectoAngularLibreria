@@ -1,0 +1,230 @@
+[{
+  "_id": {
+    "$oid": "697c02d93669efe62d1013d4"
+  },
+  "usuarioId": {
+    "$oid": "697c02c93669efe62d1013ca"
+  },
+  "libros": [
+    {
+      "libroId": {
+        "$oid": "6973d989b3f65281bfd7e5e4"
+      },
+      "libroIdString": "6973d989b3f65281bfd7e5e4",
+      "titulo": "Bajo la misma estrella",
+      "autor": "John Green",
+      "precio": 15.25,
+      "cantidad": 1,
+      "isbn": "9788415594066",
+      "imagen": "bajo_misma_estrella.jpg",
+      "categoria": "romance",
+      "subtotal": 15.25,
+      "_id": {
+        "$oid": "697c02d93669efe62d1013d5"
+      }
+    },
+    {
+      "libroId": {
+        "$oid": "6973d989b3f65281bfd7e5e3"
+      },
+      "libroIdString": "6973d989b3f65281bfd7e5e3",
+      "titulo": "Jane Eyre",
+      "autor": "Charlotte Brontë",
+      "precio": 14.6,
+      "cantidad": 1,
+      "isbn": "9780141441146",
+      "imagen": "jane_eyre.jpg",
+      "categoria": "romance",
+      "subtotal": 14.6,
+      "_id": {
+        "$oid": "697c02d93669efe62d1013d6"
+      }
+    },
+    {
+      "libroId": {
+        "$oid": "6973d989b3f65281bfd7e5e2"
+      },
+      "libroIdString": "6973d989b3f65281bfd7e5e2",
+      "titulo": "Los puentes de Madison",
+      "autor": "Robert James Waller",
+      "precio": 13.15,
+      "cantidad": 1,
+      "isbn": "9780446364495",
+      "imagen": "puentes_madison.webp",
+      "categoria": "romance",
+      "subtotal": 13.15,
+      "_id": {
+        "$oid": "697c02d93669efe62d1013d7"
+      }
+    }
+  ],
+  "total": 43,
+  "fecha": {
+    "$date": "2026-01-30T01:01:13.579Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697c02df3669efe62d1013dd"
+  },
+  "usuarioId": {
+    "$oid": "697c02c93669efe62d1013ca"
+  },
+  "libros": [
+    {
+      "libroId": {
+        "$oid": "6973d989b3f65281bfd7e5e1"
+      },
+      "libroIdString": "6973d989b3f65281bfd7e5e1",
+      "titulo": "Sapiens: De animales a dioses",
+      "autor": "Yuval Noah Harari",
+      "precio": 22.9,
+      "cantidad": 7,
+      "isbn": "9788499926223",
+      "imagen": "sapiens_harari.jpg",
+      "categoria": "ensayo",
+      "subtotal": 160.29999999999998,
+      "_id": {
+        "$oid": "697c02df3669efe62d1013de"
+      }
+    },
+    {
+      "libroId": {
+        "$oid": "6973d989b3f65281bfd7e5e0"
+      },
+      "libroIdString": "6973d989b3f65281bfd7e5e0",
+      "titulo": "Breves respuestas a las grandes preguntas",
+      "autor": "Stephen Hawking",
+      "precio": 19.75,
+      "cantidad": 3,
+      "isbn": "9788491990444",
+      "imagen": "breves_respuestas.jpg",
+      "categoria": "ensayo",
+      "subtotal": 59.25,
+      "_id": {
+        "$oid": "697c02df3669efe62d1013df"
+      }
+    }
+  ],
+  "total": 219.54999999999998,
+  "fecha": {
+    "$date": "2026-01-30T01:01:19.701Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697c02f93669efe62d1013ed"
+  },
+  "usuarioId": {
+    "$oid": "69668a09b21c0d3ca88bed02"
+  },
+  "libros": [
+    {
+      "libroId": {
+        "$oid": "6973d989b3f65281bfd7e5e1"
+      },
+      "libroIdString": "6973d989b3f65281bfd7e5e1",
+      "titulo": "Sapiens: De animales a dioses",
+      "autor": "Yuval Noah Harari",
+      "precio": 22.9,
+      "cantidad": 3,
+      "isbn": "9788499926223",
+      "imagen": "sapiens_harari.jpg",
+      "categoria": "ensayo",
+      "subtotal": 68.69999999999999,
+      "_id": {
+        "$oid": "697c02f93669efe62d1013ee"
+      }
+    },
+    {
+      "libroId": {
+        "$oid": "6973d989b3f65281bfd7e5e0"
+      },
+      "libroIdString": "6973d989b3f65281bfd7e5e0",
+      "titulo": "Breves respuestas a las grandes preguntas",
+      "autor": "Stephen Hawking",
+      "precio": 19.75,
+      "cantidad": 3,
+      "isbn": "9788491990444",
+      "imagen": "breves_respuestas.jpg",
+      "categoria": "ensayo",
+      "subtotal": 59.25,
+      "_id": {
+        "$oid": "697c02f93669efe62d1013ef"
+      }
+    }
+  ],
+  "total": 127.94999999999999,
+  "fecha": {
+    "$date": "2026-01-30T01:01:45.514Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697c03023669efe62d1013f7"
+  },
+  "usuarioId": {
+    "$oid": "69668a09b21c0d3ca88bed02"
+  },
+  "libros": [
+    {
+      "libroId": {
+        "$oid": "6973d989b3f65281bfd7e5de"
+      },
+      "libroIdString": "6973d989b3f65281bfd7e5de",
+      "titulo": "El arte de la guerra",
+      "autor": "Sun Tzu",
+      "precio": 12.3,
+      "cantidad": 3,
+      "isbn": "9788497645475",
+      "imagen": "arte_guerra.jpg",
+      "categoria": "ensayo",
+      "subtotal": 36.900000000000006,
+      "_id": {
+        "$oid": "697c03023669efe62d1013f8"
+      }
+    },
+    {
+      "libroId": {
+        "$oid": "6973d989b3f65281bfd7e5e0"
+      },
+      "libroIdString": "6973d989b3f65281bfd7e5e0",
+      "titulo": "Breves respuestas a las grandes preguntas",
+      "autor": "Stephen Hawking",
+      "precio": 19.75,
+      "cantidad": 3,
+      "isbn": "9788491990444",
+      "imagen": "breves_respuestas.jpg",
+      "categoria": "ensayo",
+      "subtotal": 59.25,
+      "_id": {
+        "$oid": "697c03023669efe62d1013f9"
+      }
+    },
+    {
+      "libroId": {
+        "$oid": "6973d989b3f65281bfd7e5e3"
+      },
+      "libroIdString": "6973d989b3f65281bfd7e5e3",
+      "titulo": "Jane Eyre",
+      "autor": "Charlotte Brontë",
+      "precio": 14.6,
+      "cantidad": 2,
+      "isbn": "9780141441146",
+      "imagen": "jane_eyre.jpg",
+      "categoria": "romance",
+      "subtotal": 29.2,
+      "_id": {
+        "$oid": "697c03023669efe62d1013fa"
+      }
+    }
+  ],
+  "total": 125.35000000000001,
+  "fecha": {
+    "$date": "2026-01-30T01:01:54.046Z"
+  },
+  "__v": 0
+}]

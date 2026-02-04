@@ -1,0 +1,234 @@
+[{
+  "_id": {
+    "$oid": "6973d989b3f65281bfd7e5de"
+  },
+  "titulo": "El arte de la guerra",
+  "autor": "Sun Tzu",
+  "descripcion": "Tratado militar clásico chino que sigue siendo relevante en estrategia, negocios y política.",
+  "precio": 12.3,
+  "isbn": "9788497645475",
+  "categoria": "ensayo",
+  "stock": 182,
+  "imagen": "arte_guerra.jpg"
+},
+{
+  "_id": {
+    "$oid": "6973d989b3f65281bfd7e5e0"
+  },
+  "titulo": "Breves respuestas a las grandes preguntas",
+  "autor": "Stephen Hawking",
+  "descripcion": "Último libro del físico donde responde preguntas fundamentales sobre el universo y nuestro lugar en él.",
+  "precio": 19.75,
+  "isbn": "9788491990444",
+  "categoria": "ensayo",
+  "stock": 72,
+  "imagen": "breves_respuestas.jpg"
+},
+{
+  "_id": {
+    "$oid": "6973d989b3f65281bfd7e5e1"
+  },
+  "titulo": "Sapiens: De animales a dioses",
+  "autor": "Yuval Noah Harari",
+  "descripcion": "Breve historia de la humanidad que explora cómo nuestra especie llegó a dominar el planeta.",
+  "precio": 22.9,
+  "isbn": "9788499926223",
+  "categoria": "ensayo",
+  "stock": 134,
+  "imagen": "sapiens_harari.jpg"
+},
+{
+  "_id": {
+    "$oid": "6973d989b3f65281bfd7e5e2"
+  },
+  "titulo": "Los puentes de Madison",
+  "autor": "Robert James Waller",
+  "descripcion": "Historia de amor fugaz pero intenso entre una granjera y un fotógrafo que cambia sus vidas para siempre.",
+  "precio": 13.15,
+  "isbn": "9780446364495",
+  "categoria": "romance",
+  "stock": 81,
+  "imagen": "puentes_madison.webp"
+},
+{
+  "_id": {
+    "$oid": "6973d989b3f65281bfd7e5e3"
+  },
+  "titulo": "Jane Eyre",
+  "autor": "Charlotte Brontë",
+  "descripcion": "Clásico de la literatura que narra la vida de Jane Eyre y su compleja relación con el misterioso señor Rochester.",
+  "precio": 14.6,
+  "isbn": "9780141441146",
+  "categoria": "romance",
+  "stock": 62,
+  "imagen": "jane_eyre.jpg"
+},
+{
+  "_id": {
+    "$oid": "6973d989b3f65281bfd7e5e4"
+  },
+  "titulo": "Bajo la misma estrella",
+  "autor": "John Green",
+  "descripcion": "Conmovedora historia de amor entre dos adolescentes con cáncer que buscan vivir plenamente a pesar de su enfermedad.",
+  "precio": 15.25,
+  "isbn": "9788415594066",
+  "categoria": "romance",
+  "stock": 111,
+  "imagen": "bajo_misma_estrella.jpg"
+},
+{
+  "_id": {
+    "$oid": "6973d989b3f65281bfd7e5e5"
+  },
+  "titulo": "Cincuenta sombras de Grey",
+  "autor": "E.L. James",
+  "descripcion": "Historia de amor y exploración entre Anastasia Steele y Christian Grey que cautivó a millones de lectores.",
+  "precio": 16.75,
+  "isbn": "9780345803481",
+  "categoria": "romance",
+  "stock": 95,
+  "imagen": "cincuenta_sombras.jpg"
+},
+{
+  "_id": {
+    "$oid": "6973d989b3f65281bfd7e5e6"
+  },
+  "titulo": "El amor en los tiempos del cólera",
+  "autor": "Gabriel García Márquez",
+  "descripcion": "Historia de amor que atraviesa décadas entre Florentino Ariza y Fermina Daza, superando obstáculos y el tiempo.",
+  "precio": 18.9,
+  "isbn": "9780307389732",
+  "categoria": "romance",
+  "stock": 0,
+  "imagen": "amor_tiempos_colera.jpg"
+},
+{
+  "_id": {
+    "$oid": "6973d989b3f65281bfd7e5e7"
+  },
+  "titulo": "Guía del Aventurero de la Costa de la Espada",
+  "autor": "Wizards of the Coast",
+  "descripcion": "Campaign setting para Forgotten Realms con mapas, historias y aventuras listas para jugar.",
+  "precio": 39.75,
+  "isbn": "9780786965603",
+  "categoria": "rpg",
+  "stock": 0,
+  "imagen": "sword_coast.jpg"
+},
+{
+  "_id": {
+    "$oid": "6973d989b3f65281bfd7e5e8"
+  },
+  "titulo": "Manual del Jugador",
+  "autor": "Wizards of the Coast",
+  "descripcion": "Libro fundamental para jugadores de D&D con razas, clases, hechizos y reglas de creación de personajes.",
+  "precio": 32.5,
+  "isbn": "9780786965602",
+  "categoria": "rpg",
+  "stock": 71,
+  "imagen": "player_handbook.jpg"
+},
+{
+  "_id": {
+    "$oid": "6973d989b3f65281bfd7e5e9"
+  },
+  "titulo": "Guía del Dungeon Master",
+  "autor": "Wizards of the Coast",
+  "descripcion": "Manual esencial para directores de juego de D&D con reglas, consejos y herramientas para crear aventuras.",
+  "precio": 35.99,
+  "isbn": "9780786965601",
+  "categoria": "rpg",
+  "stock": 45,
+  "imagen": "dungeon_master_guide.jpg"
+},
+{
+  "_id": {
+    "$oid": "6973d989b3f65281bfd7e5ea"
+  },
+  "titulo": "Cien años de soledad",
+  "autor": "Gabriel García Márquez",
+  "descripcion": "Obra maestra del realismo mágico que narra la historia de la familia Buendía en Macondo.",
+  "precio": 22.75,
+  "isbn": "9780307474728",
+  "categoria": "normal",
+  "stock": 65,
+  "imagen": "cien_anos_soledad.jpg"
+},
+{
+  "_id": {
+    "$oid": "6973d989b3f65281bfd7e5eb"
+  },
+  "titulo": "Orgullo y prejuicio",
+  "autor": "Jane Austen",
+  "descripcion": "Clásico de la literatura romántica que explora las relaciones sociales en la Inglaterra del siglo XIX.",
+  "precio": 12.99,
+  "isbn": "9780141439518",
+  "categoria": "normal",
+  "stock": 110,
+  "imagen": "orgullo_prejuicio.jpg"
+},
+{
+  "_id": {
+    "$oid": "6973d989b3f65281bfd7e5ec"
+  },
+  "titulo": "1984",
+  "autor": "George Orwell",
+  "descripcion": "Novela distópica que presenta un futuro totalitario donde el gobierno controla cada aspecto de la vida.",
+  "precio": 14.5,
+  "isbn": "9780451524935",
+  "categoria": "normal",
+  "stock": 120,
+  "imagen": "1984_orwell.jpg"
+},
+{
+  "_id": {
+    "$oid": "6973d989b3f65281bfd7e5ed"
+  },
+  "titulo": "Juego de tronos",
+  "autor": "George R.R. Martin",
+  "descripcion": "Primer libro de la saga Canción de Hielo y Fuego, épica de fantasía medieval y política.",
+  "precio": 21.3,
+  "isbn": "9780553103540",
+  "categoria": "fantasia",
+  "stock": 90,
+  "imagen": "juego_tronos.jpg"
+},
+{
+  "_id": {
+    "$oid": "6973d989b3f65281bfd7e5ee"
+  },
+  "titulo": "El Hobbit",
+  "autor": "J.R.R. Tolkien",
+  "descripcion": "Aventura fantástica que precede a El Señor de los Anillos, siguiendo el viaje de Bilbo Bolsón.",
+  "precio": 18.4,
+  "isbn": "9780547928227",
+  "categoria": "fantasia",
+  "stock": 100,
+  "imagen": "el_hobbit.jpg"
+},
+{
+  "_id": {
+    "$oid": "6973d989b3f65281bfd7e5ef"
+  },
+  "titulo": "El nombre del viento",
+  "autor": "Patrick Rothfuss",
+  "descripcion": "Crónica del asesino de reyes: primera jornada que narra la historia de Kvothe, un personaje legendario.",
+  "precio": 19.99,
+  "isbn": "9788401337208",
+  "categoria": "fantasia",
+  "stock": 85,
+  "imagen": "el_nombre_del_viento.jpg"
+},
+{
+  "_id": {
+    "$oid": "6973d989b3f65281bfd7e5f0"
+  },
+  "titulo": "Pensar rápido, pensar despacio",
+  "autor": "Daniel Kahneman",
+  "descripcion": "Exploración de los dos sistemas que modelan nuestro pensamiento y cómo tomamos decisiones.",
+  "precio": 24.5,
+  "isbn": "9788437505008",
+  "categoria": "ensayo",
+  "stock": 110,
+  "imagen": "pensar_rapido.jpg"
+}]
